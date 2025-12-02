@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* ボタンのグリッドレイアウト設定 */
+.calculator {
+  background-color: pink;
+  border: 1px solid gray;
+}
+
+.button-grid {
+  display: grid; /* グリッドレイアウト */
+  grid-template-columns: repeat(4, 60px); /* 列の定義: 4列、各列の幅60px */
+  gap: 8px; /* グリッド間の隙間 */
+}
+
+button {
+  background-color: lightblue;
+}
